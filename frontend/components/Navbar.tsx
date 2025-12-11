@@ -24,14 +24,13 @@ export const Navbar: React.FC = () => {
           {/* Desktop Menu - Simplified for MVP */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-600 hover:text-blue-600 font-medium">Trang chủ</Link>
-            <Link to="/admin" className="text-gray-400 hover:text-gray-600 font-medium text-sm">Quản trị (Demo)</Link>
             <a href={`tel:${SHOP_CONFIG.phone}`} className="text-gray-600 hover:text-blue-600 font-medium flex items-center gap-1">
-               <i className="fas fa-phone-alt text-sm"></i> Hotline: {SHOP_CONFIG.phone}
+              <i className="fas fa-phone-alt text-sm"></i> Hotline: {SHOP_CONFIG.phone}
             </a>
           </div>
 
           {/* Cart Icon */}
-          <button 
+          <button
             onClick={toggleCart}
             className="relative p-2 text-gray-600 hover:bg-gray-100 rounded-full transition-colors"
           >
