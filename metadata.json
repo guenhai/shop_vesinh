@@ -1,0 +1,5 @@
+{
+  "name": "SanitaryWare Estimator",
+  "description": "A sanitary ware catalog and cost estimation tool designed for homeowners and contractors. Features a cart-like estimate system and direct Zalo integration.",
+  "requestFramePermissions": []
+}
